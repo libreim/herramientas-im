@@ -41,6 +41,8 @@ mkdir -p la/terminal/es/mas/rápida
 
 * Termina automatizando todas las tareas rutinarias
 
+* **[Cheat sheet](https://goo.gl/MWOfkx)**
+
 # LaTeX
 
 ## vs. Word, ODT
@@ -52,6 +54,8 @@ mkdir -p la/terminal/es/mas/rápida
 * Es extensible, hay paquetes para todo
 
 * Está en la web: **MathJax**
+
+* Para empezar: **TeXstudio**
 
 ## Documentos
 
@@ -83,7 +87,9 @@ mkdir -p la/terminal/es/mas/rápida
 
 * Es un sistema de control de versiones
 
-*
+* Permite trabajar con varias personas
+
+* Retroceder a una versión anterior del código
 
 **[Manual rápido de GitHub/Git](https://dgiim.github.io/blog/2014/02/23/manualgit/)**
 
@@ -95,6 +101,9 @@ mkdir -p la/terminal/es/mas/rápida
 
 [**Awesome** (dgiim.github.io/awesome)](https://dgiim.github.io/awesome)
 
+[**Blog** (dgiim.github.io/blog)](https://dgiim.github.io/blog)
+
+[**Twitter** (twitter.com/dgiimgr)](https://twitter.com/dgiimgr)
 
 ## {.titleslide#backslide}
 
