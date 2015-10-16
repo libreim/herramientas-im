@@ -15,17 +15,23 @@ incremental: true
 
 ## Ubuntu
 
+. . .
+
 * La más usada y la más fácil de usar
 
 * Variantes: **Linux Mint**, **Elementary**
 
+![](deb_ders.png)
+
 ## Arch
 
-* Siempre actualizada
+* Rolling Release: Siempre actualizada
 
 * Documentación &rarr; &infin; (Arch Wiki)
 
 * Variantes: **Antergos**, **Manjaro**
+
+![](archs.png)
 
 ## La terminal
 
@@ -47,7 +53,7 @@ mkdir -p la/terminal/es/mas/rápida
 
 ## vs. Word, ODT
 
-* $\LaTeX$ es texto plano
+* LaTeX es texto plano
 
 * Nivel de detalle mucho mayor
 
@@ -172,6 +178,16 @@ mkdir -p la/terminal/es/mas/rápida
   section.title h1, section.titleslide h1 {
     margin-top: 100px;
   }
+  section.title:after {
+    content: "@dgiimgr";
+    position: absolute;
+    top: 460px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.7em;
+    color: rgba(255,255,255,0.8);
+  }
 
   section#linux {
     background-image: url(tux.svg);
@@ -201,9 +217,10 @@ mkdir -p la/terminal/es/mas/rápida
     background-image: none;
   }
 
-  section img, figure img {
+  section > img, figure > img {
     max-width: 100%;
-    width: auto !important;
+    max-height: 100%;
+    awidth: auto !important;
     height: auto !important;
     margin: 0 auto;
     display: block;
@@ -212,7 +229,11 @@ mkdir -p la/terminal/es/mas/rápida
 
   figure {
     background-color: transparent !important;
-    height: auto !important;
+    aheight: auto !important;
+  }
+  figure[aria-selected] {
+    position: absolute;
+    top: 120px;
   }
 
   /**** Transitions: ****/
