@@ -127,7 +127,7 @@ $$
 
 * Es un sistema de control de versiones
 
-* Trabajar con varias personas
+* Trabajar con varias personas (sin machacar código)
 
 * Retroceder a una versión anterior del código
 
@@ -141,15 +141,29 @@ $$
 
 * `git init` inicializa un repo
 
+    `git clone` clona uno existente
+
+    `git pull` trae cambios del *remoto*
+
 * `git add` selecciona archivos modificados (y `git reset` los deselecciona)
 
-* `git commit` confirma cambios en los archivos
+    `git commit` confirma cambios en los archivos
 
-* `git pull` trae cambios del *remoto*
+    `git push` envía cambios desde el *local*
 
-* `git push` envía cambios desde el *local*
+* `checkout`, `merge`, `diff`, `log`, `revert`...
 
-* `git checkout`, `git merge`, `git diff`, `git log`, `git revert`...
+## GitHub
+
+* Alojamiento de repos públicos
+
+* **[GitHub Education](http://education.github.com/)**: repos privados y más cosas
+
+* Organizaciones: **[/dgiim](http://github.com/dgiim)**
+
+* Es vuestro currículum en empresas tecnológicas
+
+![](contribuciones.png)
 
 # Recursos y proyectos
 
@@ -162,6 +176,22 @@ $$
 [**Blog** (dgiim.github.io/blog)](https://dgiim.github.io/blog)
 
 [**Twitter** (twitter.com/dgiimgr)](https://twitter.com/dgiimgr)
+
+## Oficina de Software Libre
+
+* **#JuevesEnLaETSIIT**
+
+* GitHub Meetups
+
+* Certamen de Proyectos Libres
+
+* Talleres, Hackathones...
+
+* **[\@oslugr](https://twitter.com/oslugr)**, **[osl.ugr.es](http://osl.ugr.es)**
+
+## Otros
+
+* **[Python Granada](http://www.python-granada.es/)**
 
 ## {.titleslide#backslide}
 
