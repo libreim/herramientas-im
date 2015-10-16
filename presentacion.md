@@ -193,6 +193,8 @@ $$
 
 * **[Python Granada](http://www.python-granada.es/)**
 
+* **[GDG Granada](http://gdggranada.com/)**
+
 ## {.titleslide#backslide}
 
 <!--link href='http://fonts.googleapis.com/css?family=Open Sans:400,300,700' rel='stylesheet' type='text/css'-->
