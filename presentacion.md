@@ -53,7 +53,7 @@ mkdir -p la/terminal/es/mas/rápida
 
 ## vs. Word, ODT
 
-* LaTeX es texto plano
+* $\mathrm\LaTeX$ es texto plano
 
 * Nivel de detalle mucho mayor
 
@@ -63,6 +63,23 @@ mkdir -p la/terminal/es/mas/rápida
 
 * Para empezar: **TeXstudio**
 
+* **TeXLive** (Linux), **[MiKTeX](http://miktex.org/)** (Windows),  
+    **[MacTeX](https://www.tug.org/mactex/)** (OS X), **[Overleaf](https://www.overleaf.com/)**
+
+## Comandos y entornos
+
+* Comandos:
+
+    `\`*nombre*`[`*opciones*`]{`*parámetro1*`}{`*parámetro2*`}`...
+
+    `\textbf`, `\textit`, `\texttt`, `\color`
+
+* Entornos: delimitados con `\begin{entorno}` y `\end{entorno}`
+
+    `verbatim`, `table`, `figure`, `itemize`, `enumerate`, `theorem`
+
+**[LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)**
+
 ## Documentos
 
 * Cabecera: `\documentclass`, `\title`, `\author`
@@ -71,13 +88,24 @@ mkdir -p la/terminal/es/mas/rápida
 
 * `\section`, `\subsection`, `\subsubsection`...
 
-. . .
-
 **[M42/plantillas](https://github.com/M42/plantillas)**  
 
 **[andreshp/LatexTemplates](https://github.com/andreshp/LatexTemplates)**
 
 ## Ecuaciones
+
+* En línea: \$e^{i \\pi} + 1 = 0\$ &rarr; $e^{i \pi} + 1 = 0$
+
+* En bloque: entornos `equation`, `eqnarray`
+$$
+  \delta_{ij} =
+  \begin{cases}
+    1 & \mbox{ si } i = j \\
+    0 & \mbox{ en otro caso}
+  \end{cases}
+$$
+
+* Paquete `amsmath`: **[amsmath User's Guide](ftp://ftp.ams.org/pub/tex/doc/amsmath/amsldoc.pdf)**
 
 **[Detexify](http://detexify.kirelabs.org/classify.html)**
 
@@ -85,7 +113,13 @@ mkdir -p la/terminal/es/mas/rápida
 
 ## Presentaciones
 
-**[dgiim/beamer](https://github.com/dgiim/beamer)**
+* `\documentclass{beamer}`
+
+* **[dgiim/beamer](https://github.com/dgiim/beamer)**
+
+---
+
+![](beamer.png)
 
 # Git + GitHub
 
@@ -93,11 +127,29 @@ mkdir -p la/terminal/es/mas/rápida
 
 * Es un sistema de control de versiones
 
-* Permite trabajar con varias personas
+* Trabajar con varias personas
 
 * Retroceder a una versión anterior del código
 
+* Separar el trabajo en un proyecto por ramas
+
 **[Manual rápido de GitHub/Git](https://dgiim.github.io/blog/2014/02/23/manualgit/)**
+
+**[Git cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet)**
+
+## Comandos de Git
+
+* `git init` inicializa un repo
+
+* `git add` selecciona archivos modificados (y `git reset` los deselecciona)
+
+* `git commit` confirma cambios en los archivos
+
+* `git pull` trae cambios del *remoto*
+
+* `git push` envía cambios desde el *local*
+
+* `git checkout`, `git merge`, `git diff`, `git log`, `git revert`...
 
 # Recursos y proyectos
 
@@ -132,7 +184,7 @@ mkdir -p la/terminal/es/mas/rápida
   section {
     font-family: Open Sans, 'Open Sans', Ubuntu, sans-serif;
     background: #fff;
-    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.3);
+    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.2);
   }
   code, pre {
     font-family: Source Code Pro, Ubuntu Mono, monospace;
@@ -156,7 +208,7 @@ mkdir -p la/terminal/es/mas/rápida
     padding: 10pt 10pt 20pt;
   }
   section.level2:not(.titleslide) h1 {
-    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.2);
   }
   section.title, section.titleslide {
     background: #009688;
@@ -168,6 +220,9 @@ mkdir -p la/terminal/es/mas/rápida
   }
   pre {
     font-size: 0.8em;
+  }
+  code {
+    color: #40695c;
   }
 
   /**** Títulos (iconos) ****/
