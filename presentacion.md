@@ -105,7 +105,7 @@ $$
   \end{cases}
 $$
 
-* Paquete `amsmath`: **[amsmath User's Guide](ftp://ftp.ams.org/pub/tex/doc/amsmath/amsldoc.pdf)**
+* Paquete `amsmath`: **[amsmath User's Guide](http://goo.gl/lvv5G5)**
 
 **[Detexify](http://detexify.kirelabs.org/classify.html)**
 
