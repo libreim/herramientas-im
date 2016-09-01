@@ -14,7 +14,7 @@ EOF
 exit 0
 
 #-------------------------------------------------------------------------------
-# Algunas utilidades básicas para reconocer el estado de la terminal/sistema
+# 1. Algunas utilidades básicas para reconocer el estado de la terminal/sistema
 #-------------------------------------------------------------------------------
 # muestra la fecha y hora
 date
@@ -34,7 +34,7 @@ cat /proc/cpuinfo
 cat /proc/meminfo
 
 #-------------------------------------------------------------------------------
-# Gestión de archivos y directorios
+# 2. Gestión de archivos y directorios
 #-------------------------------------------------------------------------------
 # lista contenidos del directorio actual
 ls
@@ -57,7 +57,7 @@ cd ..
 rm -rf test-libreim
 
 #-------------------------------------------------------------------------------
-# Gestión de procesos
+# 3. Gestión de procesos
 #-------------------------------------------------------------------------------
 
 # En una terminal bash, Ctrl-C envía una señal de terminación al proceso activo,
@@ -79,7 +79,7 @@ killall -9 glxgears
 which -a ruby
 
 #-------------------------------------------------------------------------------
-# Alias y funciones
+# 4. Alias y funciones
 #-------------------------------------------------------------------------------
 # establece un alias que expande al comando que sea asignado
 alias accio='find / -name'
@@ -90,8 +90,14 @@ welcome() {
   echo "Hola $user! Bienvenido a $computer"
 }
 
+######## RETO 4.1 ##############################################################
+# Averigua para qué sirve el archivo oculto ~/.bashrc
+# Añade algún alias que creas útil y que te ahorre tiempo al usar la terminal
+# Comprueba su funcionamiento
+################################################################################
+
 #-------------------------------------------------------------------------------
-# Gestión de paquetes
+# 5. Gestión de paquetes
 #-------------------------------------------------------------------------------
 # En derivadas de Debian (por ejemplo Ubuntu) se utiliza apt:
 sudo apt-get update
