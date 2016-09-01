@@ -5,6 +5,14 @@
 #   #!/usr/bin/env python
 #   #!/usr/bin/env ruby
 
+# Muestra un mensaje por pantalla. Los mensajes multilínea se pueden delimitar
+# con <<MARCA y terminarlos con MARCA
+cat <<EOF
+Es mejor que no ejecutes este guion entero de una vez. Abre el archivo $0 y ve probando paso a paso. Saliendo...
+EOF
+# aborta el script
+exit 0
+
 #-------------------------------------------------------------------------------
 # Algunas utilidades básicas para reconocer el estado de la terminal/sistema
 #-------------------------------------------------------------------------------
@@ -81,3 +89,13 @@ welcome() {
   local computer=$(hostname)
   echo "Hola $user! Bienvenido a $computer"
 }
+
+#-------------------------------------------------------------------------------
+# Gestión de paquetes
+#-------------------------------------------------------------------------------
+# En derivadas de Debian (por ejemplo Ubuntu) se utiliza apt:
+sudo apt-get update
+sudo apt-get install cmatrix
+
+# En Arch Linux y sus derivadas utilizamos pacman:
+sudo pacman -Syy cmatrix
