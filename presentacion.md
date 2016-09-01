@@ -1,5 +1,5 @@
 ---
-title: "Herramientas para Informática y Matemáticas"
+title: "Herramientas para Informática y Matemáticas 2.0"
 incremental: true
 ---
 
@@ -21,7 +21,7 @@ incremental: true
 
 * Variantes: **Linux Mint**, **Elementary**
 
-![](deb_ders.png)
+![](assets/deb_ders.png)
 
 ## Arch
 
@@ -31,7 +31,7 @@ incremental: true
 
 * Variantes: **Antergos**, **Manjaro**
 
-![](archs.png)
+![](assets/archs.png)
 
 ## La terminal
 
@@ -49,6 +49,8 @@ mkdir -p la/terminal/es/mas/rápida
 
 * **[Cheat sheet](https://goo.gl/MWOfkx)**
 
+# demos/terminal.sh
+
 # LaTeX
 
 ## vs. Word, ODT
@@ -63,7 +65,7 @@ mkdir -p la/terminal/es/mas/rápida
 
 * Para empezar: **TeXstudio**
 
-* **TeXLive** (Linux), **[MiKTeX](http://miktex.org/)** (Windows),  
+* **TeXLive** (Linux), **[MiKTeX](http://miktex.org/)** (Windows),
     **[MacTeX](https://www.tug.org/mactex/)** (OS X), **[Overleaf](https://www.overleaf.com/)**
 
 ## Comandos y entornos
@@ -88,7 +90,7 @@ mkdir -p la/terminal/es/mas/rápida
 
 * `\section`, `\subsection`, `\subsubsection`...
 
-**[M42/plantillas](https://github.com/M42/plantillas)**  
+**[M42/plantillas](https://github.com/M42/plantillas)**
 
 **[andreshp/LatexTemplates](https://github.com/andreshp/LatexTemplates)**
 
@@ -119,7 +121,7 @@ $$
 
 ---
 
-![](beamer.png)
+![](assets/beamer.png)
 
 # Git + GitHub
 
@@ -163,7 +165,7 @@ $$
 
 * Es vuestro currículum en empresas tecnológicas
 
-![](contribuciones.png)
+![](assets/contribuciones.png)
 
 # Recursos y proyectos
 
@@ -203,7 +205,7 @@ $$
 
   }
   body {
-    background: #009688;
+    background: #9a9f9c;
     color: #000;
   }
   a {
@@ -223,16 +225,16 @@ $$
   }
   h1 {
     font-weight: 400;
-    font-size: 2.2em;
-  }
-  section.slide:not(.titleslide) h1 {
     font-size: 2em;
   }
+  section.slide:not(.titleslide) h1 {
+    font-size: 1.8em;
+  }
   b, strong {
-    color: #009688;
+    color: #9a9f9c;
   }
   h1 {
-    background: #009688;
+    background: #9a9f9c;
     color: #fff;
   }
   h1, h2, h3 {
@@ -243,7 +245,7 @@ $$
     box-shadow: 0 10px 10px -5px rgba(0,0,0,0.2);
   }
   section.title, section.titleslide {
-    background: #009688;
+    background: #9a9f9c;
     color: black;
   }
   .incremental > [aria-selected] {
@@ -259,7 +261,7 @@ $$
 
   /**** Títulos (iconos) ****/
   section.title, section.titleslide {
-    background: url(logo.png) no-repeat 325px 325px #009688;
+    background: no-repeat 325px 325px #9a9f9c;
     background-size: 150px auto;
   }
   section.title h1, section.titleslide h1 {
@@ -276,8 +278,11 @@ $$
     color: rgba(255,255,255,0.8);
   }
 
+  section#libreim {
+    background-image: url(assets/logo.png);
+  }
   section#linux {
-    background-image: url(tux.svg);
+    background-image: url(assets/tux.svg);
   }
   section#linux:after {
     content: "© Larry Ewing";
@@ -291,11 +296,11 @@ $$
   }
 
   section#latex {
-    background-image: url(latex.png);
+    background-image: url(assets/latex.png);
   }
 
   section#git-github {
-    background-image: url(git.png);
+    background-image: url(assets/git.png);
     background-position: 250px 325px;
     background-size: 300px auto;
   }
