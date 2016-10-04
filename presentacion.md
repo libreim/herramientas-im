@@ -161,29 +161,47 @@ $$
 
 * **[GitHub Education](http://education.github.com/)**: repos privados y más cosas
 
-* Organizaciones: **[/dgiim](http://github.com/dgiim)**
+* Organizaciones: **[/dgiim](http://github.com/libreim)**
 
 * Es vuestro currículum en empresas tecnológicas
 
 ![](assets/contribuciones.png)
 
+# Programación
+
+## Software libre
+
+* Código abierto? Software libre?
+
+* Tipos de licencias: copyleft
+
+* GPL, MIT, Creative Commons
+
+## Lenguajes
+
+* Uno de bajo nivel (**C++**)
+
+* Uno de scripting (**Ruby**, **Python**, **JavaScript**)
+
+* Análisis de datos? **R**
+
+* Programación funcional? **Haskell**
+
 # Recursos y proyectos
 
 ## Doble Grado
 
-[**Foro** (dgiim.github.io/foro)](https://dgiim.github.io/foro)
+[**Foro** (tux.ugr.es/dgiim/overflow)](https://tux.ugr.es/dgiim/overflow)
 
-[**Awesome** (dgiim.github.io/awesome)](https://dgiim.github.io/awesome)
+[**Awesome** (tux.ugr.es/dgiim/awesome)](https://tux.ugr.es/dgiim/awesome)
 
-[**Blog** (dgiim.github.io/blog)](https://dgiim.github.io/blog)
+[**Blog** (tux.ugr.es/dgiim/blog)](https://tux.ugr.es/dgiim/blog)
 
-[**Twitter** (twitter.com/dgiimgr)](https://twitter.com/dgiimgr)
+[**Twitter** (twitter.com/dgiimgr)](https://twitter.com/libreim_)
 
 ## Oficina de Software Libre
 
 * **#JuevesEnLaETSIIT**
-
-* GitHub Meetups
 
 * Certamen de Proyectos Libres
 
@@ -193,7 +211,13 @@ $$
 
 ## Otros
 
+* **Granada Hacklab**/**Granada Geek**
+
 * **[Python Granada](http://www.python-granada.es/)**
+
+* **[Interferencias](http://interferenciasenlared.tumblr.com/)**
+
+* **[AMAT](http://www.ugr.es/~amat)**
 
 * **[GDG Granada](http://gdggranada.com/)**
 
