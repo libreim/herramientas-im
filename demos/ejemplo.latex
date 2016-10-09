@@ -26,6 +26,9 @@
 % escritura de documentos matemáticos son:
 \usepackage{amsmath,amsfonts,amsthm}
 
+% Un paquete más, para poder añadir enlaces
+\usepackage{hyperref}
+
 % Con eso será suficiente por ahora. Recuerda que si quieres que
 % tu documento cuente con alguna funcionalidad fuera de lo
 % habitual, suele haber un paquete de LaTeX que la define. Por
@@ -99,6 +102,37 @@ y la segunda no (un resultado similar se consigue con el entorno
 \[ f((x, y)) = (-y, x) \]
 
 \subsection{Símbolos}
+
+En el modo matemático podemos escribir variedad de símbolos, por
+ejemplo las letras griegas $\alpha, \beta, \gamma$ y las demás. Para
+una referencia más completa, visita
+\href{https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_Mathematical_Symbols}{
+  este libro de Wikibooks}.
+
+\subsection{Más ecuaciones}
+\[
+  \delta_{ij} =
+  \begin{cases}
+    1 & \mbox{ si } i = j \\
+    0 & \mbox{ en otro caso}
+  \end{cases}
+\]
+
+\[
+  Ax = 
+  \begin{pmatrix}
+    \cos\alpha & -\sen\alpha & 0  \\
+    \sen\alpha & \cos\alpha  & 0  \\
+    0          & 0           & -1
+  \end{pmatrix}
+  \begin{pmatrix}
+    x_1 \\
+    x_2 \\
+    x_3
+  \end{pmatrix}
+\]
+
+           
 
 \section{Figuras, tablas y otros}
 
