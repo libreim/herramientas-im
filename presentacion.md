@@ -3,6 +3,10 @@ title: "Herramientas para Informática y Matemáticas 2.0"
 incremental: true
 ---
 
+## Sigue los tutoriales con:
+
+### https://github.com/libreim/tutorials
+
 # Linux
 
 ## Distros
@@ -154,17 +158,17 @@ incremental: true
 
 ## LibreIM
 
-¡**Seminarios**!
+* ¡**Seminarios**!
 
-[Overflow](https://tux.ugr.es/dgiim/overflow),
+* [Overflow](https://tux.ugr.es/dgiim/overflow),
 [Awesome](https://tux.ugr.es/dgiim/awesome),
 [Blog](https://tux.ugr.es/dgiim/blog)
 
-[\@libreim_](https://twitter.com/libreim_)
+* [\@libreim_](https://twitter.com/libreim_)
 
-Telegram: [libreim](https://telegram.me/libreim)
+* Telegram: [libreim](https://telegram.me/libreim)
 
-GitHub: [libreim](https://github.com/libreim)
+* GitHub: [libreim](https://github.com/libreim)
 
 ## Oficina de Software Libre
 
@@ -183,6 +187,8 @@ GitHub: [libreim](https://github.com/libreim)
 * [Python Granada](http://www.python-granada.es/)
 
 * [Interferencias](http://interferenciasenlared.tumblr.com/)
+
+* [Geek & Tech Girls](https://twitter.com/geekandtechgirl)
 
 * [AMAT](http://www.ugr.es/~amat)
 
