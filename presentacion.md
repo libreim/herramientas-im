@@ -1,5 +1,5 @@
 ---
-title: "Herramientas para Informática y Matemáticas 2.0"
+title: "Esenciales para Informática y Matemáticas"
 incremental: true
 ---
 
@@ -130,7 +130,7 @@ incremental: true
 
 ![](assets/contribuciones.png)
 
-# Programación
+# Desarrollo
 
 ## Software libre
 
@@ -154,7 +154,26 @@ incremental: true
 
 * Programación funcional? **Haskell**
 
-# Recursos y proyectos
+## Herramientas libres para matemáticas
+
+* **SAGE**  
+Reúne numerosos paquetes de uso matemático: NumPy, SciPy, Sympy, Maxima, GAP, R, matplotlib...
+
+* **Octave**  
+Alternativa libre a Matlab
+
+* **R**  
+Herramienta dirigida a análisis de datos con un amplio repositorio de librerías (CRAN)
+
+## Recursos gratuitos para estudiantes
+
+### [Student Developer Pack](https://education.github.com/pack)
+<img src="assets/studentpack.png" style="height:150px; margin: 0 auto; display: block;">
+
+### [Microsoft Imagine](https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?cmi_cs=1&cmi_mnuMain=bdba23cf-e05e-e011-971f-0030487d8897&ws=e5e4d0ab-826f-e011-971f-0030487d8897&vsro=8)
+<img src="assets/imagine.png" style="height:150px; margin: 0 auto; display: block;">
+
+# Eventos y recursos en Granada
 
 ## LibreIM
 
@@ -255,6 +274,10 @@ incremental: true
   }
   code {
     color: #40695c;
+  }
+
+  .centered {
+	  text-align: center;
   }
 
   /**** Títulos (iconos) ****/
