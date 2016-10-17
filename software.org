@@ -1,0 +1,86 @@
+#+TITLE: Cómo elegir software
+#+EMAIL: Mario Román <mromang08@gmail.com>
+
+
+* Cómo Elegir Software
+** Objetivo
+Esta presentación está basada en un [[http://www.gwern.net/Choosing%20Software][artículo de Gwern]],
+llamado *Choosing Software* y que recomiendo mucho.
+
+Aprender a usar una pieza de software es difícil. 
+Queremos software que merezca la pena *aprender*.
+
+#+BEGIN_NOTES
+Vais a estar siempre eligiendo software. ¿GNOME o KDE?
+¿Distro?¿Editor?¿Lenguaje de programación?
+#+END_NOTES
+
+* Mantenimimento
+Mantener algo por tu cuenta será difícil y gastará la mayoría
+de tu tiempo. Queremos software que esté mantenido y que vaya
+a estarlo en un futuro.
+
+** Ejemplo: GNU
+La mayoría de utilidades de *GNU* han tenido mantenimiento 
+durante muchísimo tiempo, y probablemente lo seguirán teniendo.
+
+#+BEGIN_NOTES
+Mirar dos cosas:
+ - Que tenga actividad reciente
+ - Que estemos en una versión más o menos avanzada.
+#+END_NOTES
+
+* Extensibilidad
+Debemos poder extender una herramienta y adaptarla a nuestra 
+necesidad. Para esto es útil que sea *software libre*.
+
+Buscamos herramientas con:
+ - Módulos.
+ - Fáciles de extender (programando).
+   
+** Ejemplo: Firefox, Atom, Emacs
+Firefox tiene infinidad de extensiones. Atom se
+extiende con Javascript; Emacs con Lisp.
+
+** Terminal
+La interfaz gráfica no puede extenderse tan fácilmente como una
+herramienta de terminal, te limita a lo que alguien ha hecho antes
+que tú.
+
+* Fácil de entender
+Entender cómo está funcionando internamente tu programa facilita
+ver dónde falla o extenderlo. Buscamos que tenga una buena 
+documentación y que su arquitectura sea fácil de entender.
+
+** Ejemplo: Texto plano
+Es siempre preferible un formato que use *texto plano* y comprensible
+por un humano. Será más fácil de reusar luego, será más fácil que alguien 
+lo mantenga y no necesitas software específico para editarlo.
+
+#+BEGIN_SRC verbatim
+Sample document created with MS Word
+Title
+���� !"#����%&'()*+����-./0123
+Root Entry��������	�F;ʐD��8�1Table������������
+� WordDocument��������@$SummaryInformation(����$
+DocumentSummaryInformation8������������,CompObj
+����jObjectPool������������;ʐD��;ʐD��������������
+����	�FMicrosoft Word Document
+#+END_SRC
+
+#+BEGIN_SRC text
+# Aprendiendo Markdown
+## Introducción
+
+¡Markdown es un *lenguaje de marcado* muy sencillo!
+Puedes escribir **así** y luego exportar a un elegante pdf.
+
+ - Y puedes escribir listas
+ - Como esta
+#+END_SRC
+
+* Con una comunidad detrás
+Software estándar, que la mayoría use. Garantiza que será mantenido,
+que más gente arregla /bugs/ y hace /forks/.
+
+*Ejemplo*: C, Bash, GitHub, Arch.
