@@ -35,6 +35,24 @@ La terminal tiene más posibilidades que la interfaz gráfica.
 
 ### El editor
 
+Para escribir tus programas necesitarás un editor de texto. Normalmente no
+recomendamos los IDEs para empezar porque ocultan lo que está pasando detrás de
+ellos.
+
+![](http://imgs.xkcd.com/comics/real_programmers.png)
+
+Entre los editores disponibles podemos destacar:
+
+ - [Emacs](https://www.gnu.org/software/emacs/)
+ - [Vim](http://www.vim.org/)
+ - [Atom](https://atom.io/)
+
+Hay editores menos potentes orientados a editar pequeños ficheros desde la
+propia terminal:
+
+ - [GNU Nano](https://www.nano-editor.org/)
+ - [Micro](https://github.com/zyedidia/micro)
+
 ## Latex
 
 Sistema para preparar archivos con fórmulas matemáticas y exportarlas a 
@@ -44,11 +62,11 @@ al final un documento tipográficamente cuidado.
 
 Puedes aprender Latex con:
 
- - [LibreIM: ¿Cómo aprender Latex?](http://tux.ugr.es/dgiim/blog/2015/03/14/latex/)
- - [Detexify](http://detexify.kirelabs.org/classify.html)
- - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
- - [M42/plantillas](https://github.com/M42/plantillas), 
- - [andreshp/LatexTemplates](https://github.com/andreshp/LatexTemplates)
+ - [LibreIM: ¿Cómo aprender Latex?](http://tux.ugr.es/dgiim/blog/2015/03/14/latex/), artículo en el blog con enlaces y un pequeño resumen.
+ - [Detexify](http://detexify.kirelabs.org/classify.html), para descubrir cómo se escribe cada símbolo en Latex.
+ - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX), tutorial de Wikibooks.
+ - [M42/plantillas](https://github.com/M42/plantillas), una colección de plantillas de Latex.
+ - [andreshp/LatexTemplates](https://github.com/andreshp/LatexTemplates), más plantillas de Latex.
 
 Las presentaciones pueden escribirse con **beamer**:
 
@@ -63,7 +81,14 @@ es un sistema de control de versiones. Puedes usar
  - [Manual rápido de Github/Git](http://tux.ugr.es/dgiim/blog/2014/02/23/manualgit/).
  - [Curso de Git](https://github.com/oslugr/curso-git), de la Oficina del Software Libre.
 
-## Lenguajes de programación
+## Desarrollo
+### Software libre
+
+ - [Free Software Foundation](https://fsf.org/)
+ - [Open Source Initiative](https://opensource.org/)
+ - [Free Software, Free Society](https://www.gnu.org/doc/fsfs3-hardcover.pdf)
+
+### Lenguajes de programación
 
 Hay infinidad de lenguajes de programación, podemos destacar:
 
@@ -95,7 +120,7 @@ Para trabajar con matemáticas y análisis de datos:
 
  - [R](https://www.r-project.org/)
  - [Sage](http://www.sagemath.org/)
- - [Maxima](https://en.wikipedia.org/wiki/Maxima_(software)
+ - [Maxima](https://en.wikipedia.org/wiki/Maxima_(software))
  - [Octave](https://www.gnu.org/software/octave/)
 
 Lenguajes de marcado:
@@ -105,3 +130,34 @@ Lenguajes de marcado:
  - [Markdown](http://daringfireball.net/projects/markdown/)
  - [org-mode](http://orgmode.org/)
 
+## Eventos en Granada
+
+### LibreIM
+
+Organizamos seminarios, además de mantener el 
+[Blog de LibreIM](https://tux.ugr.es/dgiim/blog), el foro de
+informática y matemáticas [Overflow](https://tux.ugr.es/dgiim/overflow) y la 
+página de recursos Awesome. Puedes seguirnos en:
+
+ - Twitter: [\@libreim_](https://twitter.com/libreim_)
+ - Telegram: [libreim](https://web.telegram.org/#/im?p=@libreim)
+ - GitHub: [GitHub](https://github.com/libreim)
+
+### Oficina de Software Libre
+
+* **#JuevesEnLaETSIIT** / **#MartesEnCiencias**
+* [Certamen de Proyectos Libres](http://osl.ugr.es/bases-de-los-premios-a-proyectos-libres-de-la-ugr/)
+* Talleres, Hackathones...
+* [\@oslugr](https://twitter.com/oslugr), [osl.ugr.es](http://osl.ugr.es)
+
+### Y más eventos
+
+Granada tiene una comunidad muy activa en informática y en matemáticas; siempre
+puedes buscar charlas, talleres y actividades relacionadas:
+
+ - [**Granada Hacklab**/**Granada Geek**](http://www.meetup.com/Granada-Geek/events/234830860/)
+ - [AMAT](http://www.ugr.es/~amat)
+ - [Python Granada](http://www.python-granada.es/)
+ - [Interferencias](http://interferenciasenlared.tumblr.com/)
+ - [Geek & Tech Girls](https://twitter.com/geekandtechgirl)
+ - [GDG Granada](http://gdggranada.com/)
