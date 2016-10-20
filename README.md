@@ -67,6 +67,7 @@ Puedes aprender Latex con:
  - [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX), tutorial de Wikibooks.
  - [M42/plantillas](https://github.com/M42/plantillas), una colección de plantillas de Latex.
  - [andreshp/LatexTemplates](https://github.com/andreshp/LatexTemplates), más plantillas de Latex.
+ - [Curso de Latex AMAT](https://github.com/pedritomelenas/Curso-LaTeX-AMAT), apuntes del curso de Latex para el grado de matemáticas.
 
 Las presentaciones pueden escribirse con **beamer**:
 
