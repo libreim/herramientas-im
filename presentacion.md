@@ -1,11 +1,17 @@
 ---
 title: "Esenciales para Informática y Matemáticas"
-incremental: true
+author: "LibreIM <span class=\"twitter\">@libreim_</span>"
+incremental: yes
+css:
+  - http://fonts.googleapis.com/css?family=Fira+Sans
+  - style.css
 ---
 
-## Sigue los tutoriales con:
+## Tutoriales y enlaces
 
-### https://github.com/libreim/tutorials
+`github.com/libreim/tutorials`
+
+`github.com/libreim/herramientas-im`
 
 # Linux
 
@@ -19,11 +25,7 @@ incremental: true
 
 ## Ubuntu
 
-. . .
-
 * La más usada y la más fácil de usar
-
-* Variantes: **Linux Mint**, **Elementary**
 
 ![](assets/deb_ders.png)
 
@@ -33,9 +35,14 @@ incremental: true
 
 * Documentación &rarr; &infin; (Arch Wiki)
 
-* Variantes: **Antergos**, **Manjaro**
-
 ![](assets/archs.png)
+
+## ArchIM
+
+[Descarga](https://static.apricityos.com/freezedry-build/fdavidcl/apricity_os-libreim-gnome-2.iso)
+
+![](assets/apricity.jpg)
+
 
 ## La terminal
 
@@ -45,21 +52,8 @@ incremental: true
 
 * [Cheatsheet](https://duckduckgo.com/?q=linux+cheatsheet&t=h_&ia=cheatsheet&iax=1)
 
-### tutorials/terminal.sh
+**tutorials/terminal.sh**
 
-## El editor
-
-![](http://imgs.xkcd.com/comics/real_programmers.png)
-
-# LaTeX
-
-## vs. Word, ODT
-
-* $\mathrm\LaTeX$ es texto plano
-
-* Nivel de detalle mucho mayor
-
-* Es extensible, hay paquetes para todo
 
 * Está en la web: **MathJax**
 
@@ -84,7 +78,7 @@ incremental: true
 [Detexify](http://detexify.kirelabs.org/classify.html),
 [HostMath](http://hostmath.com/)
 
-### tutorials/ejemplo.tex
+**tutorials/ejemplo.tex**
 
 # Git + GitHub
 
@@ -100,7 +94,7 @@ incremental: true
 
 [Try Git](https://try.github.io/levels/1/challenges/1), [Git cheatsheet](https://duckduckgo.com/?q=git+cheatsheet&t=h_&ia=cheatsheet&iax=1)
 
-### tutorials/git-github.md
+**tutorials/git-github.md**
 
 ## Comandos de Git
 
@@ -170,9 +164,6 @@ Herramienta dirigida a análisis de datos con un amplio repositorio de librería
 ### [Student Developer Pack](https://education.github.com/pack)
 <img src="assets/studentpack.png" style="height:150px; margin: 0 auto; display: block;">
 
-### [Microsoft Imagine](https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?cmi_cs=1&cmi_mnuMain=bdba23cf-e05e-e011-971f-0030487d8897&ws=e5e4d0ab-826f-e011-971f-0030487d8897&vsro=8)
-<img src="assets/imagine.png" style="height:150px; margin: 0 auto; display: block;">
-
 # Eventos y recursos en Granada
 
 ## LibreIM
@@ -213,10 +204,10 @@ Herramienta dirigida a análisis de datos con un amplio repositorio de librería
 
 * [GDG Granada](http://gdggranada.com/)
 
-## {.titleslide#backslide}
+## {.title#backslide}
 
 <!--link href='http://fonts.googleapis.com/css?family=Open Sans:400,300,700' rel='stylesheet' type='text/css'-->
-<style>
+<!--style>
   * {
 
   }
@@ -404,4 +395,4 @@ Herramienta dirigida a análisis de datos con un amplio repositorio de librería
     padding: 30pt 10pt 60pt;
   }*/
 
-</style>
+</style-->
