@@ -1,7 +1,7 @@
 # HerramientasIM
 
 Seminario sobre las herramientas básicas para estudiar Informática y 
-Matemáticas.
+Matemáticas. Tenemos tutoriales sobre las herramientas [aquí](https://github.com/libreim/tutorials/).
 
 ## Filosofía
 
