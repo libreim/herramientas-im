@@ -29,6 +29,10 @@ Viene en distintas distribuciones:
 Puedes consultar un ránking de distribuciones en 
 [Distro watch](http://distrowatch.com/).
 
+#### ArchIM
+
+Hemos preparado una ISO de Apricity (basada en Arch) con diversos paquetes para estudiantes ([descargar la ISO](https://static.apricityos.com/freezedry-build/fdavidcl/apricity_os-libreim-gnome-2.iso)): Atom, Emacs, RStudio, TexStudio, Ruby, GHC, Pandoc, Maxima, Texlive, Python, SAGE, Dia, Virtualbox, GAP.
+
 ### La terminal
 
 La terminal tiene más posibilidades que la interfaz gráfica.
