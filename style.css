@@ -1,0 +1,279 @@
+html, .view body {
+    background-color: #202020;
+    counter-reset: slideidx;
+}
+body, .view section {
+    background-color: #202020;
+    border-radius: 12px
+}
+/* A section is a slide. It's size is 800x600, and this will never change */
+section, .view head > title {
+    /* The font from Google */
+    font-family: 'Fira Sans', arial, sans-serif;
+    font-size: 30px;
+    background: white;
+    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.2);
+}
+
+section.title, section.titleslide {
+    background: #9a9f9c;
+    color: black;
+}
+
+.view section:after {
+    counter-increment: slideidx;
+    content: counter(slideidx, decimal-leading-zero);
+    position: absolute; bottom: -80px; right: 100px;
+    color: white;
+}
+
+.view head > title {
+    color: white;
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: -0.025em;
+    color: #9a9f9c;
+}
+.title h1 {
+    margin: 100px 40px 0;
+    font-size: 55px;
+    color: #fff;
+}
+.titleslide h1 {
+    margin-top: 200px;
+    font-size: 80px;
+    color: #fff;
+}
+h3 {
+    margin: 100px 0 50px 100px;
+}
+
+ul {
+    margin: 50px 100px 20px 50px;
+}
+li > ul {
+    margin: 15px 50px;
+}
+
+p {
+    margin: 20px;
+    font-size: 30px;
+}
+
+strong {
+    color: #9a9f9c;
+    letter-spacing: -0.025em;
+}
+
+a {
+    color: #3070a0;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:before {
+    content: "↗ ";
+}
+
+blockquote {
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    padding: 50px;
+}
+blockquote:before {
+    content: open-quote;
+}
+blockquote:after {
+    content: close-quote;
+}
+
+code, pre {
+    font-family: Source Code Pro, Ubuntu Mono, monospace;
+}
+
+/* Figures are displayed full-page, with the caption
+     on top of the image/video */
+figure {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+figure > * {
+    position: absolute;
+}
+figure > img, figure > video {
+    width: 100%; height: auto;
+}
+figcaption {
+    margin: 70px;
+    font-size: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+    text-align: right;
+    background-color: rgba(255,255,255,0.3);
+    border-top: 1px solid #707070;
+    color: #000;
+    display: none;
+}
+
+/* Iconos/fondos */
+
+section.title, section.titleslide {
+    background: no-repeat 325px 325px #9a9f9c;
+    background-size: 150px auto;
+}
+section.title {
+    background-image: url(assets/logo512.png);
+    background-position: 300px 280px;
+    background-size: 200px auto;
+}
+section.title:after {
+    content: "@libreim_";
+    position: absolute;
+    top: 460px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.7em;
+    color: rgba(255,255,255,0.8);
+}
+
+section#linux {
+    background-image: url(assets/tux.svg);
+}
+section#linux:after {
+    content: "© Larry Ewing";
+    position: absolute;
+    top: 500px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.4em;
+    color: rgba(255,255,255,0.6);
+}
+
+section#latex {
+    background-image: url(assets/latex.png);
+}
+
+section#git-github {
+    background-image: url(assets/git.png);
+    background-position: 250px 325px;
+    background-size: 300px auto;
+}
+
+section#backslide {
+    background-image: none;
+}
+
+/* Transition effect */
+/* Feel free to change the transition effect for original
+     animations. See here:
+     https://developer.mozilla.org/en/CSS/CSS_transitions
+     How to use CSS3 Transitions: /
+section {
+    -moz-transition: left 400ms linear 0s;
+    -webkit-transition: left 400ms linear 0s;
+    -ms-transition: left 400ms linear 0s;
+    transition: left 400ms linear 0s;
+}
+.view section {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+.view section[aria-selected] {
+    border: 5px red solid;
+}
+
+/* Before /
+section { left: -150%; }
+/* Now /
+section[aria-selected] { left: 0; }
+/* After /
+section[aria-selected] ~ section { left: +150%; }
+/**/
+
+
+/**** Transitions: ****/
+section {
+    -moz-transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
+    -webkit-transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
+    -ms-transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
+    transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
+}
+section[aria-selected] {
+    -moz-transition: left 600ms ease-in-out 0s, opacity 400ms ease-in-out 0s;
+    -webkit-transition: left 600ms ease-in-out 0s, opacity 400ms ease-in-out 0s;
+    -ms-transition: left 600ms ease-in-out 0s, opacity 400ms ease-in-out 0s;
+    transition: left 600ms ease-in-out 0s, opacity 400ms ease-in-out 0s;
+}
+/*section h1 {
+    -moz-transition: padding 600ms ease-in-out 0.2s, color 400ms ease-in-out 0.2s;
+    -webkit-transition: padding 600ms ease-in-out 0.2s, color 400ms ease-in-out 0.2s;
+    -ms-transition: padding 600ms ease-in-out 0.2s, color 400ms ease-in-out 0.2s;
+    transition: padding 600ms ease-in-out 0.2s, color 400ms ease-in-out 0.2s;
+  }*/
+
+/* Before ****/
+section {
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+}
+/*section h1 {
+    padding: 0 10pt;
+    color: transparent;
+  }*/
+/* Now ****/
+section[aria-selected] {
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+/*section[aria-selected] h1 {
+    padding: 10pt 10pt 20pt;
+    color: #fff !important;
+  }*/
+/* After ****/
+section[aria-selected] ~ section {
+    left: 200px;
+    opacity: 0;
+    z-index: 2;
+}
+/*section[aria-selected] ~ section h1 {
+    color: transparent;
+    padding: 30pt 10pt 60pt;
+  }*/
+
+/* Incremental elements */
+
+/* By default, visible */
+.incremental > * { opacity: 1; }
+
+/* The current item */
+.incremental > *[aria-selected] { opacity: 1; }
+
+/* The items to-be-selected */
+.incremental > *[aria-selected] ~ * { opacity: 0; }
+
+/* The progressbar, at the bottom of the slides, show the global
+     progress of the presentation. */
+#progress-bar {
+    height: 2px;
+    background: #AAA;
+}
