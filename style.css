@@ -211,12 +211,12 @@ section[aria-selected] ~ section { left: +150%; }
 
 /**** Transitions: ****/
 section {
-    -moz-transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
-    -webkit-transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
-    -ms-transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
-    transition: left 600ms ease-in-out 0s, opacity 800ms ease-in-out 0s;
+    -moz-transition: left 600ms ease 20ms, opacity 800ms ease-in-out 0s;
+    -webkit-transition: left 600ms ease 20ms, opacity 800ms ease-in-out 0s;
+    -ms-transition: left 600ms ease 20ms, opacity 800ms ease-in-out 0s;
+    transition: left 600ms ease 20ms, opacity 800ms ease-in-out 0s;
 }
-section[aria-selected] {
+/*section[aria-selected] {
     -moz-transition: left 600ms ease-in-out 0s, opacity 400ms ease-in-out 0s;
     -webkit-transition: left 600ms ease-in-out 0s, opacity 400ms ease-in-out 0s;
     -ms-transition: left 600ms ease-in-out 0s, opacity 400ms ease-in-out 0s;
